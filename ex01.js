@@ -1,12 +1,6 @@
-function greetings(firstname) {
-	let greetings = "Bienvenu,";
-
-    if (firstname == "") {
-    return greetings + "" + " !"
-    } else {
-        return greetings + " Ben" + " !"
-    }
+function multiplyNumber(a, b) {
+	return a * b;
 }
 
-console.log(greetings("")); // Résultat attendu: "Bienvenue, !"
-console.log(greetings("Ben")); // Résultat attendu: "Bienvenue, Ben !
+console.log(multiplyNumber(0, -1)); // Résultat attendu: 0
+console.log(multiplyNumber(-1, -1)); // Résultat attendu: 1

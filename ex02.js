@@ -1,6 +1,12 @@
-function areaCalculator(width, height) {
-	return (width * height)
+function greetings(firstname) {
+	let greetings = "Bienvenu,";
+
+    if (firstname == "") {
+    return greetings + "" + " !"
+    } else {
+        return greetings + " Ben" + " !"
+    }
 }
 
-console.log(areaCalculator(1, 3)); // Résultat attendu: 3
-console.log(areaCalculator(1, 0)); // Résultat attendu: 0
+console.log(greetings("")); // Résultat attendu: "Bienvenue, !"
+console.log(greetings("Ben")); // Résultat attendu: "Bienvenue, Ben !
